@@ -1,0 +1,9 @@
+Case #1:
+apple+banana=10
+apple+banana=10
+banana+apple=10
+Case #2:
+a+d=3
+b+c=3
+Case #3:
+b+b=4

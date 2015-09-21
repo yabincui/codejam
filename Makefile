@@ -1,7 +1,7 @@
 include gmsl-1.1.7/gmsl
 
 UnitTestList := BadHorse CaptainHammer Moist GoogolString GCube GCampus GSnake \
-                SevenSegmentDisplay \
+                SevenSegmentDisplay Super2048 Addition CutTiles \
 
 all: $(call last,$(UnitTestList))
 
