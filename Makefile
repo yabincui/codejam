@@ -1,9 +1,9 @@
-include gmsl-1.1.7/gmsl
-
 UnitTestList := BadHorse CaptainHammer Moist GoogolString GCube GCampus GSnake \
-                SevenSegmentDisplay Super2048 Addition CutTiles \
+                SevenSegmentDisplay Super2048 Addition CutTiles PasswordAttacker \
+                NewYearsEve CardGame ParenthesesOrder MinimumScalarProduct CrazyRows \
+                BribeThePrisoners Millionaire \
 
-all: $(call last,$(UnitTestList))
+all: $(lastword $(UnitTestList))
 
 test_all: $(UnitTestList)
 
